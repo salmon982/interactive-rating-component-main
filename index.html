@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+
+<body>
+  <main>
+    <section class="card">
+      <div class="icon">
+        <img src="./images/icon-star.svg" alt="Star Icon">
+      </div>
+      <div class="text">
+        <h1 class="title">
+          How did we do?
+        </h1>
+        <p>
+          Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!</p>
+      </div>
+      <form action="thank-you.html" method="GET">
+        <div class="form-container">
+          <div class="rating one">
+            <input type="radio" id="one" name="rating" value="1">
+            <div class="label-container label-one">
+              <label for="one">1</label>
+            </div>
+          </div>
+          <div class="rating two">
+            <input type="radio" id="two" name="rating" value="2">
+            <div class="label-container label-two">
+              <label for="two">2</label>
+            </div>
+          </div>
+          <div class="rating three">
+            <input type="radio" id="three" name="rating" value="3">
+            <div class="label-container label-three">
+              <label for="three">3</label>
+            </div>
+          </div>
+          <div class="rating four">
+            <input type="radio" id="four" name="rating" value="4">
+            <div class="label-container label-four">
+              <label for="four">4</label>
+            </div>
+          </div>
+          <div class="rating five">
+            <input type="radio" id="five" name="rating" value="5">
+            <div class="label-container label-five">
+              <label for="five">5</label>
+            </div>
+          </div>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>

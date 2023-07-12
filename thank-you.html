@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="thank-you.css">
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+
+<body>
+  <main>
+    <section class="card">
+      <div class="img">
+        <img src="./images/illustration-thank-you.svg" alt="Form completed illustration">
+      </div>
+      <div class="result">
+        <p>You selected <span id="result"></span> out of 5</p>
+      </div>
+      <div class="content">
+        <h1>Thank you!</h1>
+        <p>We appreciate you taking the time to give a rating. If you ever need more support,
+          don’t hesitate to get in touch!</p>
+      </div>
+    </section>
+  </main>
+  <script>
+    const result = document.querySelector("#result");
+    const params = new URLSearchParams(window.location.search);
+    const rating = params.get("rating");
+
+    result.textContent = rating;
+  </script>
+</body>
+
+</html>
