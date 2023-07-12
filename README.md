@@ -48,8 +48,8 @@ Users should be able to:
 
 ### Useful resources
 
-- [Example resource 1](https://youtu.be/UShd9wHTR-o) - This helped me get a grip of how to style radio forms. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://youtu.be/fNcJuPIZ2WE) - This is an amazing video which helped me finally understand HTML form. I'd recommend it to anyone still learning this concept.
+- [Styling Radio Buttons](https://youtu.be/UShd9wHTR-o) - This helped me get a grip of how to style radio forms. I really liked this pattern and will use it going forward.
+- [Understanding HTML Forms](https://youtu.be/fNcJuPIZ2WE) - This is an amazing video which helped me finally understand HTML form. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
